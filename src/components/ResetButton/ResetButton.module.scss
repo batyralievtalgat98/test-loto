@@ -1,0 +1,12 @@
+.button{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        background-color: gray;
+    }
+}
